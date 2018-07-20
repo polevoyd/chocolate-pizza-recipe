@@ -1,5 +1,59 @@
 *
 {
-    outline: solid 1px orangered;
+    outline: solid 3px orangered;
 }
 
+header
+{
+    position: relative;
+}
+
+logoAndText
+{
+    display: inline-block;
+
+}
+
+/* font-family: 'Yellowtail', cursive;
+
+font-family: 'IBM Plex Mono', monospace;
+
+font-family: 'PT Mono', monospace; */
+
+
+
+ /* "DELICIOUS" */
+.logoText1
+{
+    position: absolute;
+    display: inline-block;
+    font-family: 'Yellowtail', cursive;
+    font-size: 2.5em;
+    margin-top: -0.2em;
+    margin-left: 0.1em;
+}
+
+/* THE BEST FOOD BLOG ON THE WEB.  */
+.logoText2
+{
+    position: absolute;
+    display: inline-block;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 0.6em;
+    margin-top: 3.6em;
+    margin-left: 1em;
+    letter-spacing: -0.3px;
+}
+
+.socialIcons
+{
+    position: absolute;
+    display: inline-block;
+    margin-left: 30em;
+    margin-top: -2.5em;
+}
+
+#pinterestIcon
+{
+    margin-right: 0.7em;
+}
