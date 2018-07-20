@@ -1,2 +1,2 @@
 # chocolate-pizza-recipe
-Jpg to a HTML/CSS
+JPG to a HTML/CSS
