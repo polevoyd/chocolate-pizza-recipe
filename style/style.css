@@ -2,6 +2,10 @@
 {
     /* outline: solid 3px orangered; */
 }
+/* 
+change:
+
+zebra */
 
 header
 {
@@ -70,6 +74,10 @@ font-family: 'PT Mono', monospace; */
     padding: 1.5em 0em 1.5em 0em;
 }
 
+.zebraSlashes
+{
+
+}
 /* ///////////////////////////////////////////////////////// */
 
 
@@ -78,14 +86,83 @@ font-family: 'PT Mono', monospace; */
 
 /* ///////////////////////////////////////////////////////// */
 
+#chocolatePizza
+{
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 2em;
+    margin-bottom: -1em;
+    font-weight: bold;
+}
 
+#postedWord
+{
+    margin-top: 2.5em;
+    display: inline-block;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 0.8em;
+    opacity: 0.4;
+}
 
+.printElements1
+{
+    display: inline-block;
+}
 
+.printElements2
+{
+    /* margin-top: -3.5em; */
+    display: inline-block;
+    margin-left: 30em;
+    /* float: right; */
+    margin-right: 3em;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 0.8em;
+}
 
+#printIcon
+{
+    display: inline-block;
+}
 
+#wordPrint
+{
+    opacity: 0.4;
+    display: inline-block;
+}
 
+.firstCol
+{
+    display: inline-block;   
+    line-height: 0;
 
+}
 
+.secondCol
+{
+    display: inline-block;
+    margin-left: 6em;
+    float: right;
+}
+
+.listBackground
+{
+    position: relative;
+    text-align: left;
+    color: black;
+}
+
+.insideOfPicture
+{
+    position: absolute;
+    margin-top: -17.6em;
+    margin-left: 4em;
+    /* line-height: 0.1em; */
+
+}
+
+input[type="checkbox"] {
+    /* opacity: 0.5; */
+}
 
 
 /* ///////////////////////////////////////////////////////// */
@@ -113,6 +190,12 @@ font-family: 'PT Mono', monospace; */
 
 #redButton
 {
+    border: 0;
+ background: none;
+ box-shadow: none;
+ border-radius: 0px;
+
+
     font-family: 'IBM Plex Mono', monospace;
     block-size: 100%;
     letter-spacing: -0.1em;
