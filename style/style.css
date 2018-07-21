@@ -113,6 +113,10 @@ font-family: 'PT Mono', monospace; */
 
 #redButton
 {
+    font-family: 'IBM Plex Mono', monospace;
+    block-size: 100%;
+    letter-spacing: -0.1em;
+    width: 11em;
     height: 3em;
     color: white;
     display: block;
@@ -126,7 +130,7 @@ font-family: 'PT Mono', monospace; */
 footer
 {
     position: relative;
-    margin-top: 10em;
+    margin-top: 8em;
 }
 
 
