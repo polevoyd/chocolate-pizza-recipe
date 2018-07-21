@@ -67,7 +67,16 @@ font-family: 'PT Mono', monospace; */
 {
     letter-spacing: -0.1em;
     color: gray;
+
 }
+
+.slashesBetweenBlocks b
+{
+    font-weight: normal;
+    font-size: 0.3em;
+}
+
+
 
 .slashLine
 {
