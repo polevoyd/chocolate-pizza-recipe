@@ -90,10 +90,45 @@ font-family: 'PT Mono', monospace; */
 
 /* ///////////////////////////////////////////////////////// */
  /* FOOTER */
-.lineLogoline
+ #vanessaName
+ {
+    font-weight: bold;
+    margin-left: 6em;
+    margin-bottom: 1
+ }
+ #vanessaNameBold
+ {
+    font-weight: bold;
+    margin-bottom: 1.3em;
+ }
+#vanessaQuote
+{
+    margin-left: 6em;
+    margin-top: -5.5em;
+}
+#vanessaQuoteSmall
+{
+    font-size: 0.9em;
+}
+
+#redButton
+{
+    height: 3em;
+    color: white;
+    display: block;
+    opacity: 1;
+    background: #cf5e5e;
+    margin-left: 43em;
+    margin-top: -5em;
+}
+
+ /* EVERYTHING BELOW LINE_LOGO_LINE */
+footer
 {
     position: relative;
+    margin-top: 10em;
 }
+
 
 #lineAtFooter1
 {
@@ -116,3 +151,17 @@ font-family: 'PT Mono', monospace; */
     margin-top: -1em;
 }
 
+.veryBottom
+{
+    opacity: 0.3;
+    text-align: center;
+    margin-left: 1.8em;
+    margin-top: 3em;
+}
+
+ /* CHANGE THIS FONT!!!!!  */
+.veryBottomP
+{
+    margin-top: -0.8em;
+    letter-spacing: -0.1em;
+}
