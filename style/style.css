@@ -1,6 +1,6 @@
 *
 {
-    outline: solid 3px orangered;
+    /* outline: solid 3px orangered; */
 }
 
 header
@@ -57,3 +57,62 @@ font-family: 'PT Mono', monospace; */
 {
     margin-right: 0.7em;
 }
+
+/* two ways to make this strange slash line */
+.slashesBetweenBlocks
+{
+    letter-spacing: -0.1em;
+    color: gray;
+}
+
+.slashLine
+{
+    padding: 1.5em 0em 1.5em 0em;
+}
+
+/* ///////////////////////////////////////////////////////// */
+
+
+ /* BODY */
+
+
+/* ///////////////////////////////////////////////////////// */
+
+
+
+
+
+
+
+
+
+
+
+/* ///////////////////////////////////////////////////////// */
+ /* FOOTER */
+.lineLogoline
+{
+    position: relative;
+}
+
+#lineAtFooter1
+{
+    opacity: 0.3;
+    position: absolute;
+    width: 47%;
+    margin-top: 0em;
+}
+
+#lineAtFooter2
+{
+    opacity: 0.3;
+    width: 43%;
+}
+
+#footerLogo
+{
+    position: absolute;
+    left: 50%;
+    margin-top: -1em;
+}
+
