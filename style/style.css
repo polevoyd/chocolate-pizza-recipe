@@ -7,6 +7,10 @@ change:
 
 zebra */
 
+html
+{
+    width: 920px;
+}
 header
 {
     position: relative;
@@ -24,6 +28,12 @@ font-family: 'IBM Plex Mono', monospace;
 
 font-family: 'PT Mono', monospace; */
 
+
+
+/* font-family: 'Crimson Text', serif;
+
+font-family: 'Patrick Hand', cursive; */
+/* font-family: 'Roboto', sans-serif; */
 
 
  /* "DELICIOUS" */
@@ -53,7 +63,7 @@ font-family: 'PT Mono', monospace; */
 {
     position: absolute;
     display: inline-block;
-    margin-left: 30em;
+    margin-left: 41em;
     margin-top: -2.5em;
 }
 
@@ -97,10 +107,11 @@ font-family: 'PT Mono', monospace; */
 
 #chocolatePizza
 {
-    font-family: 'IBM Plex Mono', monospace;
-    font-size: 2em;
-    margin-bottom: -1em;
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 3.5em;
+    margin-bottom: -0.7em;
     font-weight: bold;
+    letter-spacing: 0.02em;
 }
 
 #postedWord
@@ -119,11 +130,11 @@ font-family: 'PT Mono', monospace; */
 
 .printElements2
 {
-    /* margin-top: -3.5em; */
+    margin-top: 8em;
     display: inline-block;
-    margin-left: 30em;
-    /* float: right; */
-    margin-right: 3em;
+    /* margin-left: 39em; */
+    float: right;
+    margin-right: 1em;
     font-family: 'IBM Plex Mono', monospace;
     font-size: 0.8em;
 }
@@ -139,17 +150,41 @@ font-family: 'PT Mono', monospace; */
     display: inline-block;
 }
 
+
+
+.middlePart
+{
+    font-family: 'Crimson Text', serif;
+    font-size: 1.2em;
+    opacity: 0.7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .firstCol
 {
     display: inline-block;   
-    line-height: 0;
+    /* line-height: 20px; */
 
 }
 
 .secondCol
 {
     display: inline-block;
-    margin-left: 6em;
+    margin-left: 13em;
     float: right;
 }
 
@@ -158,13 +193,20 @@ font-family: 'PT Mono', monospace; */
     position: relative;
     text-align: left;
     color: black;
+    font-family: 'Patrick Hand', cursive; 
+    font-size: 1.25em;
+    /* margin-top: 3em; */
+    
 }
 
 .insideOfPicture
 {
     position: absolute;
-    margin-top: -17.6em;
+    margin-top: -14.6em;
     margin-left: 4em;
+    opacity: 0.7;
+    /* height: 100px; */
+    
     /* line-height: 0.1em; */
 
 }
@@ -200,9 +242,9 @@ input[type="checkbox"] {
 #redButton
 {
     border: 0;
- background: none;
- box-shadow: none;
- border-radius: 0px;
+    background: none;
+    box-shadow: none;
+    border-radius: 0px;
 
 
     font-family: 'IBM Plex Mono', monospace;
@@ -216,6 +258,7 @@ input[type="checkbox"] {
     background: #cf5e5e;
     margin-left: 43em;
     margin-top: -5em;
+    float: right;
 }
 
  /* EVERYTHING BELOW LINE_LOGO_LINE */
