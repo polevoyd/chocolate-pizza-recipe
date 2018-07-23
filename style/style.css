@@ -95,7 +95,28 @@ font-family: 'Patrick Hand', cursive; */
 
 .zebraSlashes
 {
+    height: 13px;
+    border: solid 0px white;
+    
+    background-image: linear-gradient(45deg, #000000 16.67%, #fff 16.67%, #fff 50%, #000000 50%, #000000 66.67%, #fff 66.67%, #fff 100%);
+    background-size: 4.24px 4.24px;
+    
+    opacity: 0.3;
+    margin-top: 2em;
+    /* margin-bottom: 2em; */
+}
 
+.zebraSlashes2
+{
+    height: 13px;
+    border: solid 0px white;
+    
+    background-image: linear-gradient(45deg, #000000 16.67%, #fff 16.67%, #fff 50%, #000000 50%, #000000 66.67%, #fff 66.67%, #fff 100%);
+    background-size: 4.24px 4.24px;
+    
+    opacity: 0.3;
+    margin-top: 2em;
+    margin-bottom: 1em;
 }
 /* ///////////////////////////////////////////////////////// */
 
